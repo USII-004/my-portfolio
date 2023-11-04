@@ -1,0 +1,30 @@
+export default [
+  {
+    image:
+      'https://w7.pngwing.com/pngs/696/424/png-transparent-logo-css-css3-thumbnail.png'
+  },
+  {
+    image:
+      'https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5.png'
+  },
+  {
+    image: 
+      'https://w1.pngwing.com/pngs/136/126/png-transparent-javascript-logo-angularjs-nodejs-computer-programming-web-development-computer-software-jquery-yellow.png'
+  },
+  {
+    image:
+      'https://w7.pngwing.com/pngs/106/519/png-transparent-tailwind-css-hd-logo.png'
+  },
+  {
+    image:
+      'https://w7.pngwing.com/pngs/359/101/png-transparent-aperture-laboratories-science-technology-laboratory-portal-science-blue-text-computer-thumbnail.png'
+  },
+  {
+    image:
+      'https://w7.pngwing.com/pngs/192/492/png-transparent-git-bash-hd-logo-thumbnail.png'
+  },
+  {
+    image: 
+      'https://w7.pngwing.com/pngs/914/758/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png'
+  }
+];
