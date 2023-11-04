@@ -4,7 +4,6 @@ import { FaGithub, FaFileLines } from "react-icons/fa6";
 import Typewriter from './Typewriter';
 import styled from "styled-components";
 import { keyframes } from "styled-components";
-import { motion } from "framer-motion"
 
 
 const Hero = () => {
@@ -41,8 +40,8 @@ const Hero = () => {
         </div>
       </div>
       <div className='py-4 w-full md:py-8 md:w-[70%] mx-auto'>
-        <AnimatedGradientText className='font-bold text-3xl md:text-7xl'>Hey!</AnimatedGradientText>
-        <h2 className='my-2 font-bold text-2xl md:text-6xl md:my-6'>
+        <AnimatedGradientText className='text-3xl font-bold md:text-7xl'>Hey!</AnimatedGradientText>
+        <h2 className='my-2 text-2xl font-bold md:text-6xl md:my-6'>
         I'm <Typewriter text="Usman Awwal" delay={400} infinite />
         </h2>
         <p className='text-sm md:text-2xl'>Frontend web developer with a solid background in Cyber 
@@ -53,13 +52,13 @@ const Hero = () => {
         </p>
         <div className='my-4 w-[80%] flex mx-auto justify-between md:my-8'>
         <a href='#' >
-          <div className='p-3 rounded-md text-xs bg-slate-800 text-white mx-2 border border-slate-800 flex md:p-4 md:text-xl md:mx-4 hover:bg-transparent hover:text-slate-800'>
+          <div className='flex p-3 mx-2 text-xs text-white border rounded-md bg-slate-800 border-slate-800 md:p-4 md:text-xl md:mx-4 hover:bg-transparent hover:text-slate-800'>
             <FaGithub className= 'mr-2 md:mr-4' /> 
             <p>Visit Github</p>
           </div>
         </a>
         <a href='#' >
-          <div className='p-3 rounded-md text-xs bg-transparent text-slate-800 border border-slate-800 mx-2 flex md:p-4 md:text-xl md:mx-4 hover:bg-slate-800 hover:text-white'>
+          <div className='flex p-3 mx-2 text-xs bg-transparent border rounded-md text-slate-800 border-slate-800 md:p-4 md:text-xl md:mx-4 hover:bg-slate-800 hover:text-white'>
             <FaFileLines className= 'mr-2 md:mr-4' /> 
             <p>Download CV</p>
           </div>

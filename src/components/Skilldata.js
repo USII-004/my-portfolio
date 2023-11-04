@@ -1,30 +1,30 @@
 export default [
   {
     image:
-      'https://w7.pngwing.com/pngs/696/424/png-transparent-logo-css-css3-thumbnail.png'
+      'https://seeklogo.com/images/C/css3-logo-8724075274-seeklogo.com.png'
   },
   {
     image:
-      'https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5.png'
+      'https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png'
   },
   {
     image: 
-      'https://w1.pngwing.com/pngs/136/126/png-transparent-javascript-logo-angularjs-nodejs-computer-programming-web-development-computer-software-jquery-yellow.png'
+      'https://seeklogo.com/images/H/html5-with-wordmark-color-logo-4259B7F24F-seeklogo.com.png'
   },
   {
     image:
-      'https://w7.pngwing.com/pngs/106/519/png-transparent-tailwind-css-hd-logo.png'
+      'https://seeklogo.com/images/J/javascript-logo-E967E87D74-seeklogo.com.png'
   },
   {
     image:
-      'https://w7.pngwing.com/pngs/359/101/png-transparent-aperture-laboratories-science-technology-laboratory-portal-science-blue-text-computer-thumbnail.png'
+      'https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png'
   },
   {
     image:
-      'https://w7.pngwing.com/pngs/192/492/png-transparent-git-bash-hd-logo-thumbnail.png'
+      'https://seeklogo.com/images/G/git-logo-CD8D6F1C09-seeklogo.com.png'
   },
   {
     image: 
-      'https://w7.pngwing.com/pngs/914/758/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png'
+      'https://seeklogo.com/images/G/github-logo-5F384D0265-seeklogo.com.png'
   }
 ];

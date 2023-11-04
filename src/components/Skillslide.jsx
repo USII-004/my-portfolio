@@ -1,15 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 const Skillslide = (props) => {
   return (
-    <div
-      className={`w-full p-1 transition-transform duration-300 ease-in-out transform ${
-        props.isActive ? 'translate-x-0' : 'translate-x-full'
-      }`}
-    >
-      <img src={props.image} className='w-full' alt='skills' />
+    <div className='mx-1 md:mx-12'>
+      <img src={props.image} className='w-full' alt='Skill' />
     </div>
-  )
-}
+  );
+};
 
-export default Skillslide
+export default Skillslide;
