@@ -2,8 +2,12 @@ import React from 'react'
 
 const Skillslide = (props) => {
   return (
-    <div className='flex w-full p-1'>
-      <img src={props.image} className='w-full' />
+    <div
+      className={`w-full p-1 transition-transform duration-300 ease-in-out transform ${
+        props.isActive ? 'translate-x-0' : 'translate-x-full'
+      }`}
+    >
+      <img src={props.image} className='w-full' alt='skills' />
     </div>
   )
 }
