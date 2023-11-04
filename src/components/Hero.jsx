@@ -41,7 +41,7 @@ const Hero = () => {
       </div>
       <div className='py-4 w-full md:py-8 md:w-[70%] mx-auto'>
         <AnimatedGradientText className='text-3xl font-bold md:text-7xl'>Hey!</AnimatedGradientText>
-        <h2 className='my-2 text-2xl font-bold md:text-6xl md:my-6'>
+        <h2 className='my-2 text-2xl font-bold text-blue-500 md:text-6xl md:my-6'>
         I'm <Typewriter text="Usman Awwal" delay={400} infinite />
         </h2>
         <p className='text-sm md:text-2xl'>Frontend web developer with a solid background in Cyber 
@@ -52,13 +52,13 @@ const Hero = () => {
         </p>
         <div className='my-4 w-[80%] flex mx-auto justify-between md:my-8'>
         <a href='#' >
-          <div className='flex p-3 mx-2 text-xs text-white border rounded-md bg-slate-800 border-slate-800 md:p-4 md:text-xl md:mx-4 hover:bg-transparent hover:text-slate-800'>
+          <div className='flex p-3 mx-2 text-xs text-white border rounded-md bg-slate-800 border-slate-800 md:p-4 md:text-xl md:mx-4 hover:bg-slate-900'>
             <FaGithub className= 'mr-2 md:mr-4' /> 
             <p>Visit Github</p>
           </div>
         </a>
         <a href='#' >
-          <div className='flex p-3 mx-2 text-xs bg-transparent border rounded-md text-slate-800 border-slate-800 md:p-4 md:text-xl md:mx-4 hover:bg-slate-800 hover:text-white'>
+          <div className='flex p-3 mx-2 text-xs bg-transparent border rounded-md text-slate-800 border-slate-800 md:p-4 md:text-xl md:mx-4 hover:bg-slate-100 '>
             <FaFileLines className= 'mr-2 md:mr-4' /> 
             <p>Download CV</p>
           </div>
