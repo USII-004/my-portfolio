@@ -15,9 +15,9 @@ const ProjectsCard = (props) => {
   return (
     <div 
     data-aos="zoom-out-up"
-    className='mx-1 my-10 bg-gray-300 shadow-lg md:w-[30rem] rounded-md'>
-      <div>
-        <img src={props.image} alt='projects' />
+    className='mx-1 my-10 bg-gray-300 shadow-lg md:w-[350px] rounded-md hover:scale-150 cursor-pointer'>
+      <div className='w-full h-[60%]'>
+        <img src={props.image} alt='projects' className='w-full h-full' />
       </div>
       <div className='py-4'>
         <div className='flex my-3 text-lg md:text-2xl'>
