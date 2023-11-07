@@ -51,13 +51,13 @@ const Nav = () => {
         </div>
         <div className='py-8 mx-16'>
           <ul className='flex text-2xl uppercase align-middle'>
-            <li className='px-4 mx-4 border-b-4 border-transparent rounded-sm hover:border-blue-500'>
+            <li className='px-4 mx-4 border-b-4 border-transparent rounded-sm hover:border-blue-200'>
               <a href='#'>About</a>
             </li>
-            <li className='px-4 mx-4 border-b-4 border-transparent rounded-sm hover:border-blue-500'>
+            <li className='px-4 mx-4 border-b-4 border-transparent rounded-sm hover:border-blue-200'>
               <a href='#'>Work</a>
             </li>
-            <li className='px-4 mx-4 border-b-4 border-transparent rounded-sm hover:border-blue-500'>
+            <li className='px-4 mx-4 border-b-4 border-transparent rounded-sm hover:border-blue-200'>
               <a href='#'>Contact</a>
             </li>
           </ul>

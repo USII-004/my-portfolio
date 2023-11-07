@@ -15,7 +15,7 @@ const ProjectsCard = (props) => {
   return (
     <div 
     data-aos="zoom-out-up"
-    className='mx-1 my-10 bg-gray-300 shadow-lg md:w-[350px] rounded-md hover:scale-150 cursor-pointer'>
+    className='mx-1 my-10 bg-gray-300 shadow-lg md:w-[350px] rounded-md cursor-pointer '>
       <div className='w-full h-[60%]'>
         <img src={props.image} alt='projects' className='w-full h-full' />
       </div>
