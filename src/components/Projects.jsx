@@ -2,7 +2,9 @@ import React from 'react'
 import ProjectData from './Projectdata'
 import ProjectsCard from './ProjectsCard'
 
+
 const Projects = () => {
+  
   return (
     <div className='px-2 py-4 md:px-24'>
       <h1 className='text-2xl font-bold text-center md:text-5xl'>Completed Projects</h1>

@@ -1,6 +1,7 @@
 import React from 'react';
 import Skillslide from './Skillslide';
 import Skilldata from './Skilldata';
+import '../styles/slideAnimation.css'
 
 const Skills = () => {
   return (

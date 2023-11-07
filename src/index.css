@@ -7,16 +7,3 @@ body {
   color: rgb(15 23 42);
 }
 
-@keyframes slide {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(100%);
-  }
-}
-
-.animation-slide {
-  animation: slide 10s infinite linear;
-  white-space: nowrap;
-}
